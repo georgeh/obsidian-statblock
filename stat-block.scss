@@ -1,0 +1,46 @@
+$dnd-red: #922610;
+.stat-block {
+	// I'd love to match this on the <hr> before, but the Markdown renders it
+	// in a <div><hr></div> so I don't know how to match it.
+	// Basically I want div(> hr) + div > blockquote
+	blockquote {
+		box-shadow: 0 0 1.5rem #867453;
+		background: #FDF1DC;
+		// background-image: url('https://tetra-cube.com/dnd/dndimages/statblockparch.jpg');
+		background-size: cover;
+		background-position: center;
+		color: rgb(33, 37, 41);
+
+		h2 {
+			color: $dnd-red;
+			font-family: "Libre Baskerville", "Lora", "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+		}
+
+		h3 {
+			color: $dnd-red;
+		}
+
+		hr {
+			color: $dnd-red;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			color: $dnd-red;
+		}
+
+		table {
+			color: $dnd-red;
+			width: 100%;
+		}
+
+		table, tr, th, td {
+			border: none;
+		}
+	}
+}

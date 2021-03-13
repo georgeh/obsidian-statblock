@@ -1,3 +1,34 @@
-
+.stat-block blockquote {
+  box-shadow: 0 0 1.5rem #867453;
+  background: #FDF1DC;
+  background-size: cover;
+  background-position: center;
+  color: #212529;
+}
+.stat-block blockquote h2 {
+  color: #922610;
+  font-family: "Libre Baskerville", "Lora", "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.stat-block blockquote h3 {
+  color: #922610;
+}
+.stat-block blockquote hr {
+  color: #922610;
+}
+.stat-block blockquote ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.stat-block blockquote li {
+  color: #922610;
+}
+.stat-block blockquote table {
+  color: #922610;
+  width: 100%;
+}
+.stat-block blockquote table, .stat-block blockquote tr, .stat-block blockquote th, .stat-block blockquote td {
+  border: none;
+}
 
 /*# sourceMappingURL=stat-block.css.map */

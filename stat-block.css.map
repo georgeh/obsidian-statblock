@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"stat-block.css"}
+{"version":3,"sourceRoot":"","sources":["stat-block.scss"],"names":[],"mappings":"AAKC;EACC;EACA;EAEA;EACA;EACA;;AAEA;EACC,OAdO;EAeP;;AAGD;EACC,OAnBO;;AAsBR;EACC,OAvBO;;AA0BR;EACC;EACA;EACA;;AAGD;EACC,OAjCO;;AAoCR;EACC,OArCO;EAsCP;;AAGD;EACC","file":"stat-block.css"}

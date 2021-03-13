@@ -11,17 +11,31 @@ $dnd-red: #922610;
 		background-position: center;
 		color: rgb(33, 37, 41);
 
-		h2 {
+		h1, h2, h3 {
 			color: $dnd-red;
 			font-family: "Libre Baskerville", "Lora", "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+			margin: 0;
 		}
 
 		h3 {
-			color: $dnd-red;
+			padding-left: .5vw;
+			margin-top: 1vw;
+		}
+
+		p {
+			margin: 0;
 		}
 
 		hr {
-			color: $dnd-red;
+			border: none;
+			height: 5px;
+			background-color: transparent;
+			background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPjxwYXRoIGQ9J00wIDAgTDUgMS43NSBWMy4yNSBMMCA1IFonIHN0cm9rZS13aWR0aD0nMCcgZmlsbD0nIzkyMjYxMCcvPjwvc3ZnPg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			width: 100%;
+			display: block;
+			margin: 0.5vw 0 0.5vw 0;
 		}
 
 		ul {
@@ -37,6 +51,7 @@ $dnd-red: #922610;
 		table {
 			color: $dnd-red;
 			width: 100%;
+			margin: 0;
 		}
 
 		table, tr, th, td {
